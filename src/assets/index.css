@@ -16,6 +16,12 @@ a {
   --verdigris: #1eb4b3ff;
   --olivine: #9fb989ff;
 }
+/*FONT*/
+.monoton-regular {
+  font-family: "Monoton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /*Navbar*/
 .navbar-scrolled {
   background-color: #343a40 !important; /* Cambia colore di sfondo */
