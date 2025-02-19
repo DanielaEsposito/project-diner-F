@@ -1,0 +1,32 @@
+/* # reset*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/*ROOT*/
+:root {
+  --body-bg-color: ;
+  --primary-color: ;
+  --secondary-color: ;
+}
+/*Navbar*/
+.navbar-scrolled {
+  background-color: #343a40 !important; /* Cambia colore di sfondo */
+  padding: 10px 0; /* Riduci l'altezza della navbar */
+  transition: all 0.3s ease; /* Aggiungi una transizione fluida */
+}
+
+/* Cambia colore dei link quando la navbar è scrolled */
+.navbar-scrolled .nav-link {
+  color: white !important;
+}
+
+/* Imposta il margine superiore per il contenuto */
+body {
+  padding-top: 0px; /* Per evitare che il contenuto venga nascosto dalla navbar */
+}

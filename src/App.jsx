@@ -12,11 +12,13 @@ function App() {
     <>
       <GlobalContextProvider>
         <BrowserRouter>
-          <Routes>
-            <Route index Component={HomePage} />
-            <Route path="/about" Component={About} />
-            <Route path="*" Component={NotFound} />
-          </Routes>
+          <DefaultLayout>
+            <Routes>
+              <Route index Component={HomePage} />
+              <Route path="/about" Component={About} />
+              <Route path="*" Component={NotFound} />
+            </Routes>
+          </DefaultLayout>
         </BrowserRouter>
       </GlobalContextProvider>
     </>
