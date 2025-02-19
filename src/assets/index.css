@@ -12,7 +12,11 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+.colored {
+  width: 300px;
+  height: 300px;
+  background-color: var(--olivine4);
+}
 /*ROOT*/
 :root {
   --tekhelet: #413170ff;
@@ -20,6 +24,7 @@ ul {
   --hunyadi-yellow: #f4c06dff;
   --verdigris: #1eb4b3ff;
   --olivine: #9fb989ff;
+  --olivine4: rgb(110, 182, 100);
   --black: #191819;
 }
 /*FONT*/
@@ -28,31 +33,29 @@ ul {
   font-weight: 400;
   font-style: normal;
 }
-/* Imposta il margine superiore per il contenuto */
+
 body {
-  background-color: var(
-    --tekhelet
-  ); /* Per evitare che il contenuto venga nascosto dalla navbar */
+  background-color: var(--tekhelet);
 }
 /*Navbar*/
 
 .navbar-scrolled {
-  background-color: var(--black) !important; /* Cambia colore di sfondo */
-  padding: 10px 0; /* Riduci l'altezza della navbar */
-  transition: all 0.3s ease; /* Aggiungi una transizione fluida */
+  background-color: var(--black) !important;
+  padding: 10px 0;
+  transition: all 0.6s ease;
 }
 
-/* Cambia colore dei link quando la navbar è scrolled */
-.navbar-scrolled .nav-link {
-  color: white !important;
+.nav-link {
+  font-size: 1.4rem;
 }
 /*HOMEPAGE*/
+
 .back-ground-hero {
   background-image: url("hero-section.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 700px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -74,6 +77,37 @@ body {
 }
 .top-bun {
   font-size: 5rem;
+}
+.img {
+  width: 400px;
+  height: 400px;
+  background-color: #191819;
+}
+.section-title {
+  font-size: 3rem;
+}
+.section-description:before {
+  content: "";
+  width: 100%;
+  height: 15px;
+  background-color: var(--olivine4);
+  border: 1px solid black;
+  display: block;
+  box-shadow: 4px 4px 0px 0px black;
+}
+.section-description:after {
+  content: "";
+  width: 100%;
+  height: 15px;
+  background-color: var(--verdigris);
+  border: 1px solid black;
+  display: block;
+  box-shadow: 4px 4px 0px 0px black;
+}
+.section-text {
+  right: 80px;
+  position: relative;
+  text-align: -moz-center;
 }
 /*FOOTER*/
 .footer {

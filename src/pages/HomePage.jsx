@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <div className="wrapper">
-      <section id="hero-section">
+      <section id="hero-section" className="h-100">
         <div className="back-ground-hero">
           <div className="colored-backgroun-hero"></div>
         </div>
@@ -14,48 +14,22 @@ export default function HomePage() {
       </section>
       <section id="menu-section">
         <div className="container">
-          <div className="row">
-            <div className="col-9"></div>
+          <div className="row ">
+            <div className="col-8">
+              <div className="img-container">
+                <div className="img"></div>
+              </div>
+            </div>
             <div className="col-4">
-              <h2 className="section-title">Menu</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                vel delectus cumque fugiat sunt magnam eligendi quia libero
-                nostrum dignissimos. Rem, adipisci. Ab sed veritatis similique
-                amet quia atque! Autem. Dolorum commodi quas, aspernatur sint
-                incidunt obcaecati at mollitia atque blanditiis ea? Cupiditate
-                excepturi magnam exercitationem et deleniti! Consequatur saepe
-                eveniet incidunt doloribus recusandae aliquid expedita eius
-                quisquam reiciendis perferendis. Quod earum cumque in maxime
-                possimus facilis, laboriosam vitae laborum alias rem architecto
-                eum omnis et ratione totam repellat ut nobis reiciendis aperiam
-                temporibus quam incidunt. Natus amet minima consectetur? Amet a
-                illum sapiente ad ipsam nihil voluptatem, tempora, eius voluptas
-                ea officia officiis deserunt autem laboriosam voluptatibus at
-                magni necessitatibus, laudantium eos earum? Nobis necessitatibus
-                consequatur ratione ea est? Quae, repellat labore dolorum,
-                molestiae quod officia sequi laborum, cum corrupti cupiditate in
-                praesentium! Dolor ipsum quas quae, minima esse error!
-                Perspiciatis exercitationem iure et. Non perferendis fuga vel
-                optio! Unde libero tempora tenetur sit hic reprehenderit
-                incidunt rerum adipisci, labore optio qui consectetur, mollitia
-                deserunt? Quia obcaecati ab labore ex! Odit quas alias
-                recusandae, officiis ut tenetur error praesentium? Veritatis
-                pariatur dolores libero corrupti ipsa est modi eligendi, quidem
-                dignissimos rerum sequi iste omnis, magnam, alias optio maxime
-                quod cupiditate fugit sed laudantium impedit unde. Nisi numquam
-                nihil unde. Hic exercitationem corrupti, error natus dicta
-                dolores animi nesciunt. Velit aliquam placeat ut eveniet
-                praesentium sunt explicabo voluptatum quibusdam rem libero, vel,
-                totam nam suscipit laboriosam architecto officiis assumenda qui?
-                Rerum, optio ullam! Blanditiis harum veniam eveniet, possimus id
-                consequuntur illum voluptatem reiciendis non? Animi voluptates
-                debitis neque natus beatae voluptate ad ipsum veritatis! Minus
-                quo ab voluptate excepturi nesciunt. Quo maxime placeat nam
-                voluptate saepe numquam! Alias amet labore consequuntur beatae
-                vitae molestiae eos, dolorem aspernatur at sunt eligendi id
-                totam omnis assumenda qui veniam autem cumque velit illo!
-              </p>
+              <h2 className="section-title text-light monoton-regular mt-4 text-center">
+                Menu
+              </h2>
+              <div className="section-description position-relative">
+                <p className="my-4 text-light section-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae perspiciatis praesentium, nostrum quae adipisci minima,
+                </p>
+              </div>
             </div>
           </div>
         </div>
