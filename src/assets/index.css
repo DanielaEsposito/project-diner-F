@@ -10,9 +10,11 @@ a {
 }
 /*ROOT*/
 :root {
-  --body-bg-color: ;
-  --primary-color: ;
-  --secondary-color: ;
+  --tekhelet: #413170ff;
+  --blush: #e36d87ff;
+  --hunyadi-yellow: #f4c06dff;
+  --verdigris: #1eb4b3ff;
+  --olivine: #9fb989ff;
 }
 /*Navbar*/
 .navbar-scrolled {
