@@ -34,19 +34,21 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section id="events-section">
+      <section id="events-section" className="my-5">
         <div className="contaioner">
           <div className="carousel-container">
             <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src="..." className="d-block w-100" alt="..." />
+                  <div className="carousel-img"></div>
                 </div>
-                <div className="carousel-item">
-                  <img src="..." className="d-block w-100" alt="..." />
+                <div className="carousel-item ">
+                  <div className="carousel-img bg-dark"></div>
                 </div>
-                <div className="carousel-item">
-                  <img src="..." className="d-block w-100" alt="..." />
+                <div className="carousel-item ">
+                  <div className="carousel-img bg-info">
+                    <h3>EVENTO</h3>
+                  </div>
                 </div>
               </div>
               <button
