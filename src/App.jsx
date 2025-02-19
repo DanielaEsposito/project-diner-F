@@ -14,15 +14,15 @@ function App() {
     <>
       <GlobalContextProvider>
         <BrowserRouter>
-          <DefaultLayout>
-            <Routes>
+          <Routes>
+            <Route Component={DefaultLayout}>
               <Route index Component={HomePage} />
               <Route path="/about" Component={About} />
               <Route path="*" Component={NotFound} />
               <Route path="/menu" Component={Menu} />
               <Route path="/events" Component={Events} />
-            </Routes>
-          </DefaultLayout>
+            </Route>
+          </Routes>
         </BrowserRouter>
       </GlobalContextProvider>
     </>
