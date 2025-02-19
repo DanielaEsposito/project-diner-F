@@ -24,13 +24,14 @@ a {
 }
 /* Imposta il margine superiore per il contenuto */
 body {
-  padding-top: 0px; /* Per evitare che il contenuto venga nascosto dalla navbar */
+  background-color: var(
+    --tekhelet
+  ); /* Per evitare che il contenuto venga nascosto dalla navbar */
 }
 /*Navbar*/
-.navbar-scrolled {
-  position: fixed;
 
-  background-color: #343a40 !important; /* Cambia colore di sfondo */
+.navbar-scrolled {
+  background-color: #191819 !important; /* Cambia colore di sfondo */
   padding: 10px 0; /* Riduci l'altezza della navbar */
   transition: all 0.3s ease; /* Aggiungi una transizione fluida */
 }

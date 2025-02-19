@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav
       className={`navbar navbar-expand-lg ${
         scrolled ? "navbar-scrolled" : ""
-      } navbar-color`}
+      } navbar-color  fixed-top`}
     >
       <div className="container-fluid">
         <button
