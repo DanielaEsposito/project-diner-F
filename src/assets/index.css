@@ -8,6 +8,11 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /*ROOT*/
 :root {
   --tekhelet: #413170ff;
@@ -15,6 +20,7 @@ a {
   --hunyadi-yellow: #f4c06dff;
   --verdigris: #1eb4b3ff;
   --olivine: #9fb989ff;
+  --black: #191819;
 }
 /*FONT*/
 .monoton-regular {
@@ -31,7 +37,7 @@ body {
 /*Navbar*/
 
 .navbar-scrolled {
-  background-color: #191819 !important; /* Cambia colore di sfondo */
+  background-color: var(--black) !important; /* Cambia colore di sfondo */
   padding: 10px 0; /* Riduci l'altezza della navbar */
   transition: all 0.3s ease; /* Aggiungi una transizione fluida */
 }
@@ -68,4 +74,9 @@ body {
 }
 .top-bun {
   font-size: 5rem;
+}
+/*FOOTER*/
+.footer {
+  padding: 40px 0px;
+  background-color: var(--black);
 }
