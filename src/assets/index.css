@@ -60,7 +60,7 @@ body {
   right: 0px;
   bottom: 0px;
   background-color: var(--tekhelet);
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: 1;
 }
 .title-container {
