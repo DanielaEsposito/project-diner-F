@@ -1,3 +1,3 @@
 export default function About() {
-  return;
+  return <h1>tua madre</h1>;
 }

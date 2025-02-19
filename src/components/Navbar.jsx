@@ -37,19 +37,23 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <NavLink className="nav-link active" aria-current="page" href="#">
+              <NavLink
+                to={"/about"}
+                className="nav-link active"
+                aria-current="page"
+              >
                 Chi siamo
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" href="#">
+              <NavLink to={"/menu"} className="nav-link">
                 Menu
               </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to={"/events"}>
                 Eventi
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

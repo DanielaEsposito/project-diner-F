@@ -7,6 +7,8 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Menu from "./pages/Menu";
+import Events from "./pages/Events";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
               <Route index Component={HomePage} />
               <Route path="/about" Component={About} />
               <Route path="*" Component={NotFound} />
+              <Route path="/menu" Component={Menu} />
+              <Route path="/events" Component={Events} />
             </Routes>
           </DefaultLayout>
         </BrowserRouter>
