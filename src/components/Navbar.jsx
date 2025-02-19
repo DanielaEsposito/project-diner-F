@@ -39,19 +39,22 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 to={"/about"}
-                className="nav-link active"
+                className="nav-link  text-light  fw-semibold "
                 aria-current="page"
               >
                 Chi siamo
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={"/menu"} className="nav-link">
+              <NavLink to={"/menu"} className="nav-link text-light fw-semibold">
                 Menu
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={"/events"}>
+              <NavLink
+                className="nav-link text-light fw-semibold"
+                to={"/events"}
+              >
                 Eventi
               </NavLink>
             </li>

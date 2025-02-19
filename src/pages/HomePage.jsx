@@ -2,10 +2,13 @@ export default function HomePage() {
   return (
     <div className="wrapper">
       <section id="hero-section">
+        <div className="back-ground-hero">
+          <div className="colored-backgroun-hero"></div>
+        </div>
         <div className="container">
-          <div className="title-container">
-            <h1 className="top-bun">TOP BUN</h1>
-            <h3>EVEN THE BEST PILOTS NEED TO REFUEL</h3>
+          <div className="title-container text-light text-center">
+            <h1 className="top-bun monoton-regular">TOP BUN</h1>
+            <h2>EVEN THE BEST PILOTS NEED TO REFUEL</h2>
           </div>
         </div>
       </section>
