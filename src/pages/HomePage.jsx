@@ -35,7 +35,13 @@ export default function HomePage() {
         </div>
       </section>
       <section id="events-section" className="my-5">
-        <div className="contaioner">
+        <div className="container">
+          <h2 className="section-title text-light monoton-regular my-5 text-center">
+            EVENTI
+          </h2>
+          <h3 className="text-center text-light mb-5">
+            SCOPRI GLI EVENTI DELLA SETTIMANA
+          </h3>
           <div className="carousel-container">
             <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
