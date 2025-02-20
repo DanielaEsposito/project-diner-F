@@ -307,3 +307,10 @@ body {
   color: black;
   margin-right: 12px;
 }
+
+/* # FOOTER */
+
+.footer {
+  padding: 40px 0px;
+  background-color: var(--black);
+}
