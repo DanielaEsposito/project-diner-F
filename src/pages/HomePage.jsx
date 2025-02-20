@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HomePage() {
   return (
     <div className="wrapper">
@@ -18,7 +20,9 @@ export default function HomePage() {
             <div className="col-8">
               <div className="img-container">
                 <div className="background-triangle-menu"></div>
+                <div className="background-triangle-black-menu"></div>
                 <div className="img"></div>
+                <div className="img-background"></div>
               </div>
             </div>
             <div className="col-4">
@@ -30,6 +34,11 @@ export default function HomePage() {
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Beatae perspiciatis praesentium, nostrum quae adipisci minima,
                 </p>
+              </div>
+              <div className="d-flex justify-content-center">
+                <Link to={"/menu"} className="text-light btn btn-primary mt-4">
+                  Vai al Menu
+                </Link>
               </div>
             </div>
           </div>
@@ -86,11 +95,7 @@ export default function HomePage() {
                 data-bs-target="#carouselExample"
                 data-bs-slide="prev"
               >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Previous</span>
+                <i class="fa-regular fa-circle-left fa-2xl fs-1"></i>
               </button>
               <button
                 className="carousel-control-next"
@@ -98,11 +103,7 @@ export default function HomePage() {
                 data-bs-target="#carouselExample"
                 data-bs-slide="next"
               >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Next</span>
+                <i class="fa-regular fa-circle-right fa-2xl fs-1"></i>
               </button>
             </div>
           </div>
