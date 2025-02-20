@@ -95,11 +95,7 @@ export default function HomePage() {
                 data-bs-target="#carouselExample"
                 data-bs-slide="prev"
               >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Previous</span>
+                <i class="fa-regular fa-circle-left fa-2xl fs-1"></i>
               </button>
               <button
                 className="carousel-control-next"
@@ -107,11 +103,7 @@ export default function HomePage() {
                 data-bs-target="#carouselExample"
                 data-bs-slide="next"
               >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Next</span>
+                <i class="fa-regular fa-circle-right fa-2xl fs-1"></i>
               </button>
             </div>
           </div>
