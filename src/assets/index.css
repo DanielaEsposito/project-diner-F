@@ -204,7 +204,7 @@ body {
 .background-y {
   clip-path: polygon(100% 49%, 0 18%, 0 83%);
   background-color: var(--hunyadi-yellow);
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: absolute;
   top: 108px;
@@ -226,7 +226,7 @@ body {
 .background-black {
   clip-path: polygon(100% 49%, 0 18%, 0 83%);
   background-color: black;
-  width: 500px;
+  width: 600px;
   height: 400px;
   position: absolute;
   top: 120px; /* Modificato per farlo scendere sotto il giallo */
