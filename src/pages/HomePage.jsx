@@ -17,6 +17,7 @@ export default function HomePage() {
           <div className="row ">
             <div className="col-8">
               <div className="img-container">
+                <div className="background-triangle-menu"></div>
                 <div className="img"></div>
               </div>
             </div>

@@ -89,6 +89,12 @@ body {
 #menu-section {
   margin-top: 180px;
 }
+.background-triangle-menu {
+  clip-path: polygon(100% 30%, 0 5%, 20% 100%);
+  background-color: var(--hunyadi-yellow);
+  width: 500px;
+  height: 500px;
+}
 .section-title {
   font-size: 3rem;
 }
