@@ -18,13 +18,14 @@ export default function Navbar() {
   }, []);
   return (
     <nav
+      data-bs-theme="dark"
       className={`navbar navbar-expand-lg ${
         scrolled ? "navbar-scrolled" : ""
       } navbar-color  fixed-top`}
     >
       <div className="container-fluid">
         <button
-          className="navbar-toggler mx-auto"
+          className="navbar-toggler mx-auto  "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -32,7 +33,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-light"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
