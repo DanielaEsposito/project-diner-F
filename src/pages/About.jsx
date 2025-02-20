@@ -11,7 +11,7 @@ export default function About() {
             LA NOSTRA STORIA
           </h2>
           <p className="story-text text-center">
-            C’era una volta, in un angolo tranquillo di Codroipo, una piccola,
+            C'era una volta, in un angolo tranquillo di Codroipo, una piccola,
             audace idea che avrebbe preso vita con il nome di "Top Bun".
             Ispirato dai film e dalla cultura popolare degli anni '80, questo
             diner non è solo un posto dove mangiare, ma un viaggio temporale che
@@ -43,9 +43,9 @@ export default function About() {
             qui che il team di Top Bun ha voluto dare vita a un'idea che unisce
             il passato e il presente, il locale e l'universale. Codroipo, con la
             sua tranquillità, è il luogo perfetto per una pausa in un diner che,
-            pur non essendo un luogo "storico", sa come evocare un’epoca senza
+            pur non essendo un luogo "storico", sa come evocare un'epoca senza
             tempo. In Top Bun, il passato è sempre vivo, non come un museo, ma
-            come un’entusiasta celebrazione di quello che è stato. E chissà,
+            come un'entusiasta celebrazione di quello che è stato. E chissà,
             forse un giorno sarà proprio questo piccolo diner di provincia a far
             conoscere a una nuova generazione cosa significava davvero essere un
             ragazzo degli anni '80.
