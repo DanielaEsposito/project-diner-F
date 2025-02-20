@@ -43,7 +43,8 @@ body {
 }
 .navbar-scrolled {
   background-color: var(--black);
-  padding: 10px 0;
+  opacity: 0.9;
+  padding: 20px 0;
   border-bottom: 2px solid var(--verdigris);
 }
 
@@ -94,7 +95,7 @@ body {
 .section-description:before {
   content: "";
   width: 100%;
-  height: 15px;
+  height: 20px;
   background-color: var(--olivine4);
   border: 1px solid black;
   display: block;
@@ -103,7 +104,7 @@ body {
 .section-description:after {
   content: "";
   width: 100%;
-  height: 15px;
+  height: 20px;
   background-color: var(--verdigris);
   border: 1px solid black;
   display: block;
@@ -114,11 +115,50 @@ body {
   position: relative;
   text-align: -moz-center;
 }
+.carousel-inner {
+  border-radius: 20px;
+}
 .carousel-img {
   margin: 0px auto;
-
   height: 500px;
   background-color: var(--hunyadi-yellow);
+}
+.info-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: end;
+  position: relative;
+}
+.background-y {
+  clip-path: polygon(100% 49%, 0 18%, 0 83%);
+  background-color: var(--hunyadi-yellow);
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 108px;
+  box-shadow: 0px 0px 7px 7px black;
+  z-index: 2; /* Assicura che sia sopra */
+}
+.event-title-container {
+  position: absolute;
+  background-color: var(--verdigris);
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 0px 0px black;
+  margin-bottom: 90px;
+  z-index: 3;
+}
+.background-black {
+  clip-path: polygon(100% 49%, 0 18%, 0 83%);
+  background-color: black;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 120px; /* Modificato per farlo scendere sotto il giallo */
+  z-index: 1;
 }
 /*FOOTER*/
 .footer {

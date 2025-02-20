@@ -36,7 +36,7 @@ export default function HomePage() {
       </section>
       <section id="events-section" className="my-5">
         <div className="container">
-          <h2 className="section-title text-light monoton-regular my-5 text-center">
+          <h2 className="section-title text-light monoton-regular mt-5 text-center">
             EVENTI
           </h2>
           <h3 className="text-center text-light mb-5">
@@ -46,14 +46,36 @@ export default function HomePage() {
             <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <div className="carousel-img"></div>
+                  <div className="carousel-img">
+                    <div className="info-container">
+                      <div className="background-y"></div>
+                      <div className="background-black"></div>
+                      <div className="event-title-container">
+                        <div className="event-title text-center">EVENTO</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="carousel-item ">
-                  <div className="carousel-img bg-dark"></div>
+                  <div className="carousel-img bg-dark">
+                    <div className="info-container">
+                      <div className="background-y"></div>
+                      <div className="background-black"></div>
+                      <div className="event-title-container">
+                        <div className="event-title text-center">EVENTO</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="carousel-item ">
                   <div className="carousel-img bg-info">
-                    <h3>EVENTO</h3>
+                    <div className="info-container">
+                      <div className="background-y"></div>
+                      <div className="background-black"></div>
+                      <div className="event-title-container">
+                        <div className="event-title text-center">EVENTO</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
