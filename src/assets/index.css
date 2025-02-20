@@ -191,23 +191,23 @@ body {
 
 .about-page .story-section .story-box {
   background-color: var(--olivine);
-  padding: 20px;
+  padding: 20px 150px;
   border-radius: 12px;
+  border: 30px solid var(--blush);
 }
 
 .story-title {
-  font-size: 1.5 rem;
+  font-size: 2.5rem;
   color: #f8f9fa;
 }
 
 .contacts-list li {
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 10px;
 }
 
 .contacts-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: #f8f9fa;
 }
