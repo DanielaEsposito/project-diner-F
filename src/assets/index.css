@@ -36,6 +36,13 @@ ul {
   font-style: normal;
 }
 
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+
 body {
   background-color: var(--tekhelet);
 }
@@ -347,6 +354,10 @@ body {
   text-align: center;
   color: black;
   margin-right: 12px;
+}
+
+.icon {
+  font-size: 1.5rem;
 }
 
 /* EVENT PAGE */
