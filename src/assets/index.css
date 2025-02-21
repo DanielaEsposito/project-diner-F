@@ -55,7 +55,6 @@ body {
   font-size: 1.4rem;
 }
 
-/*hero section*/
 /* # HOMEPAGE*/
 #hero-section {
   background-image: url("hero-section3.png");
@@ -309,6 +308,33 @@ body {
   justify-content: space-between;
 }
 
+.contacts-section::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: #1eb4b3;
+  clip-path: polygon(100% 30%, 0 5%, 20% 100%);
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(240deg);
+  z-index: -1;
+}
+
+.contacts-section::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  clip-path: polygon(100% 30%, 0 5%, 20% 100%);
+  top: 35%;
+  left: 28%;
+  transform: translate(-50%, -50%) rotate(240deg);
+  z-index: -2;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.3)); /* Ombra */
+}
+
 .contacts-list {
   list-style-type: none;
   padding-left: 0;
@@ -479,4 +505,5 @@ body {
 .footer {
   padding: 40px 0px;
   background-color: var(--black);
+  margin-top: 2rem;
 }
