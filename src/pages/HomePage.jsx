@@ -14,103 +14,127 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section id="menu-section">
-        <div className="line">
-          <div className="container">
-            <div className="row ">
-              <div className="col-8">
-                <div className="img-container">
-                  <div className="background-triangle-menu"></div>
-                  <div className="background-triangle-black-menu"></div>
-                  <div className="img"></div>
-                  <div className="img-background"></div>
-                </div>
+        <div className="container h-100">
+          <div className="row h-100">
+            <div className="col-8">
+              <div className="img-container">
+                <div className="background-triangle-menu"></div>
+                <div className="background-triangle-black-menu"></div>
+                <div className="img"></div>
+                <div className="img-background"></div>
               </div>
-              <div className="col-4">
-                <h2 className="section-title text-light monoton-regular mt-4 text-center">
-                  Menu
+            </div>
+            <div className="col-4 mt-5 pt-5">
+              <h2 className="section-title text-light monoton-regular text-center">
+                Menu
+              </h2>
+              <div className="section-description position-relative">
+                <p className="my-4 text-light section-text fs-5">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae perspiciatis praesentium, nostrum quae adipisci minima,
+                </p>
+              </div>
+              <div className="d-flex justify-content-center">
+                <Link to={"/menu"} className="text-light btn btn-primary mt-4">
+                  Vai al Menu
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="events-section">
+        <div className="line">
+          <div className="container h-100">
+            <div className="row h-100">
+              <div className="col-5 px-5 mt-5 pt-5">
+                <h2 className="section-title text-light monoton-regular mt-5 text-center">
+                  EVENTI
                 </h2>
                 <div className="section-description position-relative">
-                  <p className="my-4 text-light section-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae perspiciatis praesentium, nostrum quae adipisci
-                    minima,
-                  </p>
+                  <h3 className="my-4 text-light section-text fs-5">
+                    Scopri gli eventi in programma per questa settimana
+                  </h3>
                 </div>
                 <div className="d-flex justify-content-center">
                   <Link
-                    to={"/menu"}
+                    to={"/event"}
                     className="text-light btn btn-primary mt-4"
                   >
                     Vai al Menu
                   </Link>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="events-section" className="my-5">
-        <div className="container">
-          <h2 className="section-title text-light monoton-regular mt-5 text-center">
-            EVENTI
-          </h2>
-          <h3 className="text-center text-light mb-5">
-            SCOPRI GLI EVENTI DELLA SETTIMANA
-          </h3>
-          <div className="carousel-container">
-            <div id="carouselExample" className="carousel slide">
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <div className="carousel-img">
-                    <div className="info-container">
-                      <div className="background-y"></div>
-                      <div className="background-black"></div>
-                      <div className="event-title-container">
-                        <div className="event-title text-center">EVENTO</div>
+              <div className="col-7 ps-3 d-flex flex-column justify-content-center">
+                <div className="carousel-container">
+                  <div id="carouselExample" className="carousel slide">
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <div className="carousel-img">
+                          <img
+                            src="hero-section.png"
+                            alt=""
+                            className="hero-section-img"
+                          />
+                          <div className="info-container">
+                            <div className="background-y"></div>
+                            <div className="background-black"></div>
+                            <div className="event-title-container">
+                              <div className="event-title text-center">
+                                EVENTO
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="carousel-item ">
+                        <div className="carousel-img bg-dark">
+                          <div className="info-container">
+                            <div className="background-y"></div>
+                            <div className="background-black"></div>
+                            <div className="event-title-container">
+                              <div className="event-title text-center">
+                                EVENTO
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="carousel-item ">
+                        <div className="carousel-img bg-info">
+                          <div className="info-container">
+                            <div className="background-y"></div>
+                            <div className="background-black"></div>
+                            <div className="event-title-container">
+                              <div className="event-title text-center">
+                                EVENTO
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="carousel-item ">
-                  <div className="carousel-img bg-dark">
-                    <div className="info-container">
-                      <div className="background-y"></div>
-                      <div className="background-black"></div>
-                      <div className="event-title-container">
-                        <div className="event-title text-center">EVENTO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item ">
-                  <div className="carousel-img bg-info">
-                    <div className="info-container">
-                      <div className="background-y"></div>
-                      <div className="background-black"></div>
-                      <div className="event-title-container">
-                        <div className="event-title text-center">EVENTO</div>
-                      </div>
-                    </div>
+                    <button
+                      className="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="prev"
+                    >
+                      <i class="fa-regular fa-circle-left fa-2xl fs-1"></i>
+                    </button>
+                    <button
+                      className="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="next"
+                    >
+                      <i class="fa-regular fa-circle-right fa-2xl fs-1"></i>
+                    </button>
                   </div>
                 </div>
               </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExample"
-                data-bs-slide="prev"
-              >
-                <i class="fa-regular fa-circle-left fa-2xl fs-1"></i>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExample"
-                data-bs-slide="next"
-              >
-                <i class="fa-regular fa-circle-right fa-2xl fs-1"></i>
-              </button>
             </div>
           </div>
         </div>
