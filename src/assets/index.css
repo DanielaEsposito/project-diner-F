@@ -20,9 +20,9 @@ ul {
 
 /* # ROOT */
 :root {
-  --tekhelet: #413170ff;
+  --tekhelet: #2e366d;
   --blush: #e36d87ff;
-  --hunyadi-yellow: #f4c06dff;
+  --hunyadi-yellow: rgb(240, 194, 94);
   --verdigris: #1eb4b3ff;
   --olivine: #9fb989ff;
   --olivine4: rgb(110, 182, 100);
@@ -44,7 +44,7 @@ ul {
 }
 
 body {
-  background-color: var(--tekhelet);
+  background-color: #2e366d;
 }
 
 /* # NAVBAR */
