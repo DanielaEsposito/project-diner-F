@@ -57,7 +57,7 @@ export default function About() {
         <div className="row">
           <div className="col-7 d-flex flex-column justify-content-center align-items-center">
             <div className="contacts-section rounded-box p-5 mt-5">
-              <h3 className="contacts-title monoton-regular text-center">
+              <h3 className="contacts-title monoton-regular text-center mb-5">
                 CONTATTI
               </h3>
               <ul className="contacts-list list-unstyled">
@@ -68,7 +68,7 @@ export default function About() {
                 <li className="d-flex align-items-center mb-3 fw-bold">
                   <i className="fa-solid fa-location-dot icon"></i>
                   <span className="anton-regular">
-                    Via Dalle Balle 42 - Codroipo (UD)
+                    Via Dalle Balle, 42 - Codroipo (UD)
                   </span>
                 </li>
                 <li className="d-flex align-items-center mb-3 fw-bold">
