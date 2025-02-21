@@ -10,7 +10,7 @@ export default function About() {
           <h2 className="story-title text-center monoton-regular my-3">
             LA NOSTRA STORIA
           </h2>
-          <p className="story-text text-center">
+          <p className="story-text text-center anton-regular">
             C'era una volta, in un angolo tranquillo di Codroipo, una piccola,
             audace idea che avrebbe preso vita con il nome di "Top Bun".
             Ispirato dai film e dalla cultura popolare degli anni '80, questo
@@ -57,25 +57,31 @@ export default function About() {
         <div className="row">
           <div className="col-7 d-flex flex-column justify-content-center align-items-center">
             <div className="contacts-section rounded-box p-5 mt-5">
-              <h3 className="contacts-title monoton-regular text-center">
+              <h3 className="contacts-title monoton-regular text-center mb-5">
                 CONTATTI
               </h3>
               <ul className="contacts-list list-unstyled">
                 <li className="d-flex align-items-center mb-3 fw-bold">
                   <i className="fa-solid fa-phone icon"></i>
-                  <span>+39 3347895647</span>
+                  <span className="anton-regular">+39 3347895647</span>
                 </li>
                 <li className="d-flex align-items-center mb-3 fw-bold">
                   <i className="fa-solid fa-location-dot icon"></i>
-                  <span>Via DalleBalle 42 Codroipo</span>
+                  <span className="anton-regular">
+                    Via Dalle Balle, 42 - Codroipo (UD)
+                  </span>
                 </li>
                 <li className="d-flex align-items-center mb-3 fw-bold">
                   <i className="fa-solid fa-envelope icon"></i>
-                  <span>pieoinmarco@gmail.com</span>
+                  <span className="anton-regular">
+                    quattroallegriragazzimorti@hello.com
+                  </span>
                 </li>
                 <li className="d-flex align-items-center fw-bold">
                   <i className="fa-solid fa-clock icon"></i>
-                  <span>Aperti Mar - Ven 12:00 - 01:00</span>
+                  <span className="anton-regular">
+                    Aperti Mar - Dom 12:00 - 01:00
+                  </span>
                 </li>
               </ul>
             </div>
