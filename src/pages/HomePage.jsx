@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div className="wrapper">
-      <section id="hero-section" className="h-100">
-        <div className="back-ground-hero">
+      <section id="hero-section">
+        <div className="background-wrapper">
           <div className="colored-backgroun-hero"></div>
         </div>
         <div className="container">
@@ -15,30 +15,36 @@ export default function HomePage() {
         </div>
       </section>
       <section id="menu-section">
-        <div className="container">
-          <div className="row ">
-            <div className="col-8">
-              <div className="img-container">
-                <div className="background-triangle-menu"></div>
-                <div className="background-triangle-black-menu"></div>
-                <div className="img"></div>
-                <div className="img-background"></div>
+        <div className="line">
+          <div className="container">
+            <div className="row ">
+              <div className="col-8">
+                <div className="img-container">
+                  <div className="background-triangle-menu"></div>
+                  <div className="background-triangle-black-menu"></div>
+                  <div className="img"></div>
+                  <div className="img-background"></div>
+                </div>
               </div>
-            </div>
-            <div className="col-4">
-              <h2 className="section-title text-light monoton-regular mt-4 text-center">
-                Menu
-              </h2>
-              <div className="section-description position-relative">
-                <p className="my-4 text-light section-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae perspiciatis praesentium, nostrum quae adipisci minima,
-                </p>
-              </div>
-              <div className="d-flex justify-content-center">
-                <Link to={"/menu"} className="text-light btn btn-primary mt-4">
-                  Vai al Menu
-                </Link>
+              <div className="col-4">
+                <h2 className="section-title text-light monoton-regular mt-4 text-center">
+                  Menu
+                </h2>
+                <div className="section-description position-relative">
+                  <p className="my-4 text-light section-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae perspiciatis praesentium, nostrum quae adipisci
+                    minima,
+                  </p>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <Link
+                    to={"/menu"}
+                    className="text-light btn btn-primary mt-4"
+                  >
+                    Vai al Menu
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
