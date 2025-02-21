@@ -11,44 +11,28 @@ export default function About() {
             LA NOSTRA STORIA
           </h2>
           <p className="story-text text-center anton-regular">
-            C'era una volta, in un angolo tranquillo di Codroipo, una piccola,
-            audace idea che avrebbe preso vita con il nome di "Top Bun".
-            Ispirato dai film e dalla cultura popolare degli anni '80, questo
-            diner non è solo un posto dove mangiare, ma un viaggio temporale che
-            ti catapulta nel cuore di un'era che, seppur lontana nel tempo,
-            continua ad essere viva nelle nostre menti. Nel 2025, un gruppo di
-            appassionati di quegli anni indimenticabili decise di dar vita a un
-            nuovo tipo di ristorante: un diner che non fosse solo un luogo per
-            gustare hamburger e milkshake, ma anche un'ode a quella cultura che
-            ci ha lasciato tanto. Top Bun non è una copia di un diner anni '80,
-            è una rivisitazione moderna, che celebra la nostalgia per quei tempi
-            dorati, ma con un tocco contemporaneo. Dall'esterno, Top Bun sembra
-            un ristorante qualsiasi. Ma appena varchi la soglia, entri in un
-            mondo parallelo dove i colori neon, le insegne vintage e la musica
-            che spazia dal rock alla new wave ti accolgono. Le pareti sono
-            tappezzate di memorabilia anni '80: foto di film cult, vinili, e
-            riferimenti a quelli che furono i simboli della cultura giovanile di
-            allora. Ogni angolo è pensato per evocare una sensazione di
-            familiarità, ma con la giusta dose di ironia e freschezza. Il menu
-            di Top Bun è altrettanto un viaggio nel passato, ma non dimentica di
-            essere al passo con i tempi. Gli hamburger, preparati con
-            ingredienti freschi e di qualità, sono il cuore pulsante del locale.
-            Ma accanto ai classici, troverai anche opzioni più moderne, come il
-            burger vegetariano o le versioni gourmet, per rispondere alle
-            esigenze dei tempi. E non dimentichiamoci dei milkshake, che sono un
-            must per ogni visita. Ogni sorso ti farà sentire come se fossi in un
-            film di John Hughes, pronto a vivere una giornata indimenticabile.
-            La scelta di aprire a Codroipo non è stata casuale. Sebbene la città
-            non sia proprio il cuore pulsante della cultura anni '80, è proprio
-            qui che il team di Top Bun ha voluto dare vita a un'idea che unisce
-            il passato e il presente, il locale e l'universale. Codroipo, con la
-            sua tranquillità, è il luogo perfetto per una pausa in un diner che,
-            pur non essendo un luogo "storico", sa come evocare un'epoca senza
-            tempo. In Top Bun, il passato è sempre vivo, non come un museo, ma
-            come un'entusiasta celebrazione di quello che è stato. E chissà,
-            forse un giorno sarà proprio questo piccolo diner di provincia a far
-            conoscere a una nuova generazione cosa significava davvero essere un
-            ragazzo degli anni '80.
+            Top Bun, situato a Codroipo, è un diner che celebra la cultura pop
+            degli anni '80, rivisitata con uno stile moderno. Non è solo un
+            ristorante, ma un vero e proprio viaggio nel tempo che porta con sé
+            tutta l'energia e la nostalgia di quegli anni indimenticabili. Non
+            appena entri, vieni accolto da colori neon, insegne vintage e una
+            collezione di memorabilia: foto di film cult, vinili e simboli
+            iconici della cultura giovanile dell'epoca. Ogni angolo del locale è
+            pensato per evocare una sensazione di familiarità, ma con la giusta
+            dose di freschezza e ironia. Il menu di Top Bun è un omaggio alla
+            cucina tipica dei diner americani, ma con un occhio attento alla
+            modernità. Gli hamburger, preparati con ingredienti freschi e di
+            qualità, sono il cuore pulsante del locale, ma ci sono anche opzioni
+            moderne come burger vegetariani e versioni gourmet. I milkshake, che
+            non possono mancare, sono una vera e propria esperienza da gustare,
+            immergendosi completamente nell’atmosfera retrò del locale. La
+            scelta di aprire a Codroipo non è stata casuale: sebbene la città
+            non sia un epicentro della cultura degli anni '80, la sua
+            tranquillità è il contesto ideale per un diner che unisce passato e
+            presente, regalando ai clienti un angolo di nostalgia che sa di
+            moderno. In Top Bun, gli anni '80 non sono solo un ricordo, ma una
+            vera e propria celebrazione di un'era che continua a ispirare anche
+            oggi.
           </p>
         </div>
       </div>
